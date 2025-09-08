@@ -75,8 +75,12 @@ nav ul li a {
   }
 
   nav ul {
-    flex-direction: column;
-    gap: 16px;
+            flex-direction: column;
+        gap: 3px;
+        
+
+        position: relative;
+        top: -15px;
   }
 
   /* Toggle menu when checkbox is checked */
@@ -144,7 +148,7 @@ h1 {
 @media(max-width:768px){
   h1{
     font-size: 36px;
-    line-height: 0.8;
+        line-height: 1;
   }
   .hero-image{
     height: auto;
